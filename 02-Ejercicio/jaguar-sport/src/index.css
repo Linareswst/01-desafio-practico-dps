@@ -222,6 +222,24 @@ header{
 
 
 /* Main */
+.container-filters {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.select-filtros {
+    font-size: 16px;
+    border: 1px solid #A8D9FF;
+    border-radius: 8px;
+}
+
+.select-filtros option {
+    font-size: 16px;
+}
+
 .container-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
