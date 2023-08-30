@@ -243,9 +243,9 @@ header{
 .container-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 75px;
-    width: 95vw;
+    gap: 55px;
+    padding: 85px;
+    width: 100vw;
 }
 
 .item{
