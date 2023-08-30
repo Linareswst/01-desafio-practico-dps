@@ -24,9 +24,10 @@ export const Headers = ({
   };
 
   const updateProductQuantity = (product, newQuantity) => {
+    const parsedQuantity = parseInt(newQuantity, 10);
     const updatedProducts = allProducts.map((item) => {
       if (item.id === product.id) {
-        const updatedProduct = { ...item, quantity: newQuantity };
+        const updatedProduct = { ...item, quantity: parsedQuantity };
         return updatedProduct;
       }
       return item;
@@ -49,8 +50,6 @@ export const Headers = ({
     setTotal(newTotal);
     setCountProducts(newCountProducts);
   };
-
-  
 
   return (
     <header>

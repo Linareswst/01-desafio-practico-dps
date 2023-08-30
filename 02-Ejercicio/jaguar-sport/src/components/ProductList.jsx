@@ -9,9 +9,6 @@ export const ProductList = ({
   setCountProducts,
   setTotal,
 }) => {
-{/* Random products */}
-const shuffledProducts = [...data].sort(() => Math.random() - 0.5);
-
 {/* Filter by category */}
   const [selectedCategory, setSelectedCategory] = useState("all");
 
@@ -22,8 +19,8 @@ const shuffledProducts = [...data].sort(() => Math.random() - 0.5);
 
   const filterProducts =
     selectedCategory === "all"
-      ? shuffledProducts
-      : shuffledProducts.filter((product) => product.category === selectedCategory);
+      ? data
+      : data.filter((product) => product.category === selectedCategory);
 
 
   const onAddProduct = (product) => {
