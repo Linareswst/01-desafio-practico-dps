@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.titulo {
+  padding-left: 20%;
+}
+
+.seleccionar-pelicula {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+}
+
+/* Estilos para el select */
+.lista-peliculas {
+  font-size: 16px;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  width: 30%;
+  cursor: pointer;
+}
+
+/* Estilos para el botón agregar */
+.seleccionar-pelicula-boton {
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 25%;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.seleccionar-pelicula-boton:hover {
+  color: #333;
+  cursor: pointer;
+  border: 2px solid #333;
+  background-color: white;
+  transition: all .5s ease;
+}
+
+.container-peliculas {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-left: 20%;
+  padding-top: 5%;
+  font-size: 1.3em;
+}
+
+.peliculas {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 125%;
+  border-bottom: 2px solid #333;
+}
+
+.peliculas-botones {
+  display: grid;
+  grid-template-columns: repeat(9,1fr);
+  position: relative;
+  padding-left: 0;
+  gap: 10px;
+}
+
+input[type="number"] {
+  width: 80px;  
+  height: 30px; 
+  font-size: 20px;
+}
+
+.icon-close{
+  width: 25px;
+  height: 25px;
+  transition: all .5s ease;
+}
+
+.icon-close:hover{
+  cursor: pointer;
+  border: transparent;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.453);
+}
+
+.total-compra {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.3em;
+}
