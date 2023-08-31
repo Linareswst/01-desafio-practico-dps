@@ -1,4 +1,4 @@
-# Ejercicio 02 - Tienda Jaguar Sport
+<h1 align="center">Ejercicio 02 - Tienda Jaguar Sport</h1>
 
 <p align="left">Este ejercicio consistia en mostrar un listado de productos alojado en un archivo en formato JSON.
 Cada producto cuenta con un boton agregar al carrito y a continuacion, se renderiza en el carrito de compras con el nombre de la pelicula, imagen,
