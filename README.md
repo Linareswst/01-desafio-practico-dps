@@ -1,4 +1,4 @@
-#Desafío Práctico 01 - DPS03L
+<h1 align="center">Desafío Práctico 01 - DPS03L</h1>
 
 <p align="left">Se realizó el primer desafío práctico de la materia "Desarrollo y Programación de Software Multiplataforma", el cual consiste en
 realizar 2 ejercicios con el framework React JS.</p>
